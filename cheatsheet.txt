@@ -101,6 +101,9 @@ spark-shell -i name.scala
 
 now further inside scala you can run your codes line by line as wish/code
 
+inside scala mode - 
+load main.scala 
+
 
 
 
