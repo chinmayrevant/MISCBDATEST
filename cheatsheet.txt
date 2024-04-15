@@ -36,7 +36,9 @@ hdfs dfs -getmerge /user/your_username/source_dir/ /your_local_path/combined_fil
 
 
 
+to exit - 
 
+exit
 
 
 MAPREDUCE(NORMAL #MODE)  :
@@ -83,6 +85,11 @@ pig -x local pigscript.pig
 
 INSIDE-PIG-CODE: STORE AND LOAD INTO SHOULD BE MAINTAINED
 
+??
+to enter 
+pig
+to exit 
+exit
 
 
 
@@ -104,7 +111,9 @@ now further inside scala you can run your codes line by line as wish/code
 inside scala mode - 
 load main.scala 
 
+to EXIT scala mode 
 
+:quit
 
 
 PYSPARK(NORMAL #MODE):
@@ -118,10 +127,35 @@ TO RUN :
 
 python3 name.py
 
+?
+spark-sumbit main.py
 
 
 
 
 HIVE : 
+to create file - ( to be done outside hive mode )
+
+nano hive.hql 
+
+??run directly 
+
+hive -f hive.hql 
+
+to enter
+hive
+
+to exit 
+quit;
+
+
+
 
 HBASE:
+
+to enter -
+
+hbase shell 
+
+to exit -
+exit
